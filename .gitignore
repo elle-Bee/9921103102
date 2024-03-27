@@ -1,0 +1,30 @@
+/httpMicroservice/HELP.md
+/httpMicroservice/target/
+/httpMicroservice/!.mvn/wrapper/maven-wrapper.jar
+/httpMicroservice/!**/src/main/**/target/
+/httpMicroservice/!**/src/test/**/target/
+
+### STS ###
+/httpMicroservice/.apt_generated
+/httpMicroservice/.classpath
+/httpMicroservice/.factorypath
+/httpMicroservice/.project
+/httpMicroservice/.settings
+/httpMicroservice/.springBeans
+/httpMicroservice/.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/httpMicroservice/nbproject/private/
+/httpMicroservice/nbbuild/
+/httpMicroservice/dist/
+/httpMicroservice/nbdist/
+/httpMicroservice/.nb-gradle/
+/httpMicroservice/build/
+/httpMicroservice/!**/src/main/**/build/
+/httpMicroservice/!**/src/test/**/build/
