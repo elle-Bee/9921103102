@@ -1,0 +1,38 @@
+HELP.md
+/http-microservice/target/
+/http-microservice/!.mvn/wrapper/maven-wrapper.jar
+/http-microservice/!**/src/main/**/target/
+/http-microservice/!**/src/test/**/target/
+
+### STS ###
+/http-microservice/.apt_generated
+/http-microservice/.classpath
+/http-microservice/.factorypath
+/http-microservice/.project
+/http-microservice/.settings
+/http-microservice/.springBeans
+/http-microservice/.sts4-cache
+
+### IntelliJ IDEA ###
+/http-microservice/.idea
+/http-microservice/*.iws
+/http-microservice/*.iml
+/http-microservice/*.ipr
+
+### NetBeans ###
+/http-microservice/nbproject/private/
+/http-microservice/nbbuild/
+/http-microservice/dist/
+/http-microservice/nbdist/
+/http-microservice/.nb-gradle/
+/http-microservice/build/
+/http-microservice/!**/src/main/**/build/
+/http-microservice/!**/src/test/**/build/
+
+### VS Code ###
+/http-microservice/.vscode/
+
+.idea
+*.iws
+*.iml
+*.ipr
