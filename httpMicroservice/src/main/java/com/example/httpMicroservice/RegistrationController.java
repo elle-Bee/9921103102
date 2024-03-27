@@ -16,7 +16,6 @@ public class RegistrationController {
 
     @PostMapping("/register")
     public ResponseEntity<String> registerCompany(@RequestBody RegistrationService registrationDetails) {
-        // Prepare the registration request payload
         RegistrationService request = new RegistrationService(
                 registrationDetails.getCompanyName(),
                 registrationDetails.getOwnerName(),
