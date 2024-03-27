@@ -21,8 +21,8 @@ public class HttpMicroserviceApplication {
 	}
 
 	@Bean
-	public RestTemplate restTemplate(RestTemplateBuilder builder) {
-		return builder.build();
+	public RestTemplate restTemplate() {
+		return applicationContext.getBean("customRestTemplate", RestTemplate.class);
 	}
 
 	public void registerCompany() {
