@@ -32,8 +32,8 @@ public class HttpMicroserviceApplication {
 		String clientID = "37bb493c-73d3-47ea-8675-21f66ef9b735";
 		String clientSecret = "HVIQBVbqmTGEmaED";
 		String ownerName = "Rahul";
-		String ownerEmail = "rahul@abc.edu";
-		String rollNo = "1";
+		String ownerEmail = "9921103102@mail.jiit.ac.in";
+		String rollNo = "9921103102";
 
 		RegistrationRequest registrationRequest = new RegistrationRequest(companyName, clientID, clientSecret, ownerName, ownerEmail, rollNo);
 
